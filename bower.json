@@ -8,6 +8,7 @@
     "chai": "~3.2.0",
     "mocha": "~2.2.5",
     "components-font-awesome": "*",
+	"jquery": "~2.1.4",
     "jquery.transit": "*",
     "jquery.easing": "*"
   },
