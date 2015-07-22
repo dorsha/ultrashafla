@@ -1,0 +1,266 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
+// endbower
+
+@font-face {
+  font-family: docallismeonstreet;
+  src: url('../fonts/docallismeonstreet.otf')
+}
+
+@font-face {
+  font-family: flowersPower;
+  src: url('../fonts/Flowers Power Nega.ttf')
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #E4E7E5;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  @media screen and (max-width: 1500px) {
+    background-size: 1500px;
+  }
+
+  @media screen and (max-width: 650px) {
+    background-size: 1400px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    background-position-x: 85%;
+  }
+
+  @media screen and (max-width: 900px) {
+    background-position-x: 80%;
+  }
+
+  @media screen and (max-width: 820px) {
+    background-position-x: 78%;
+  }
+
+  @media screen and (max-width: 795px) {
+    background-position-x: 1%;
+  }
+
+  @media screen and (max-width: 618px) {
+    background-position-x: 10%;
+  }
+
+  @media screen and (max-width: 570px) {
+    background-position-x: 13%;
+  }
+
+  @media screen and (max-width: 515px) {
+    background-position-x: 14%;
+  }
+
+  @media screen and (max-width: 450px) {
+    background-position-x: 17%;
+  }
+
+  @media screen and (max-width: 400px) {
+    background-position-x: 20%;
+  }
+
+  @media screen and (max-width: 365px) {
+    background-position-x: 23%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    text-align: center;
+  }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.media,
+.about,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  background-color: #D2C7B7;
+  border: 1px solid rgba(0, 47, 0, 0.66);
+  -webkit-box-shadow: 0px 0px 16px 4px rgba(82,79,82,1);
+  -moz-box-shadow: 0px 0px 16px 4px rgba(82,79,82,1);
+  box-shadow: 0px 0px 16px 4px rgba(82,79,82,1);
+  margin-top: 80px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting media content */
+.media,
+.about {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .media,
+  .about,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+}
+
+.media-text {
+  margin-bottom: 30px;
+}
+
+.about {
+  margin-top: 55%;
+
+  @media screen and (max-width: 1850px) {
+    margin-top: 50%;
+  }
+
+  @media screen and (max-width: 1800px) {
+    margin-top: 45%;
+  }
+
+  @media screen and (max-width: 1730px) {
+    margin-top: 40%;
+  }
+
+  @media screen and (max-width: 1640px) {
+    margin-top: 35%;
+  }
+
+  @media screen and (max-width: 1640px) {
+    margin-top: 30%;
+  }
+
+  @media screen and (max-width: 1550px) {
+    margin-top: 25%;
+  }
+
+  @media screen and (max-width: 991px) {
+    margin-top: 45%;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 53%;
+  }
+
+  @media screen and (max-width: 576px) {
+    margin-top: 55%;
+  }
+
+  @media screen and (max-width: 415px) {
+    margin-top: 60%;
+  }
+
+  @media screen and (max-width: 385px) {
+    margin-top: 65%;
+  }
+
+  @media screen and (max-width: 385px) {
+    margin-top: 70%;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 650px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: auto;
+  }
+}
+
+.memeber {
+  > img {
+  }
+  > h4 {
+    margin-left: 25px;
+    text-align: center;
+  }
+  //margin-bottom: 50px
+}
+
+.intro {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(239, 239, 239);
+  line-height: 90px;
+  > h1 {
+    font-family: docallismeonstreet;
+    font-size: 130px;
+    @media (max-width: 991px) {
+      font-size: 120px;
+    }
+    @media (max-width: 650px) {
+      font-size: 100px;
+    }
+    > span {
+      color: #154516;
+    }
+  }
+  > h2 {
+    margin-top: 20px;
+  }
+}
+
+.youtube {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "hafla",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "jQuery-One-Page-Nav": "*",
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5",
+    "components-font-awesome": "*",
+    "jquery.transit": "*",
+    "jquery.easing": "*"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  }
+}
