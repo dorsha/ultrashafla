@@ -1,5 +1,5 @@
 {
-  "name": "hafla",
-  "root": "./",
+  "name": "ultrashafla",
+  "root": "./dist",
   "clean_urls": false
 }
