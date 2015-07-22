@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - '0.12'
 before_script:
-  - 'npm install -g bower grunt-cli'
+  - 'npm install -g bower gulp-cli'
   - 'bower install'
-  - 'grunt build'
+  - 'gulp'
 deploy:
   provider: divshot
   api_key: go5j1EoGA3vQz4RW4RpHdhMHfzL-t2236Q15K7SI
