@@ -37,8 +37,5 @@
         "single"
       ]
     }
-  },
-  "scripts": {
-    "postinstall": "bower install; grunt build"
   }
 }
